@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27900121000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Shopping.init()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add three book into cart and do cart operations",
+        "description": "",
+        "id": "shopping-at-amazon;add-three-book-into-cart-and-do-cart-operations",
+        "after": [
+          {
+            "result": {
+              "duration": 3442008600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Shopping.End()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5194747200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on amazon page",
+            "match": {
+              "location": "Shopping.user_is_on_amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 976460100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search Experiences of Test Automation: Case Studies of Software Test Automation book name",
+            "match": {
+              "location": "Shopping.user_search_Experiences_of_Test_Automation_Case_Studies_of_Software_Test_Automation_book_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1823956100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on search icon",
+            "match": {
+              "location": "Shopping.click_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452352800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Experiences of Test Automation: Case Studies of Software Test Automation book name",
+            "match": {
+              "location": "Shopping.click_on_Experiences_of_Test_Automation_Case_Studies_of_Software_Test_Automation_book_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11026409100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on add to cart button",
+            "match": {
+              "location": "Shopping.click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404777700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searched for Agile Testing: A Practical Guide for Testers and Agile Teams book name",
+            "match": {
+              "location": "Shopping.user_searched_for_Agile_Testing_A_Practical_Guide_for_Testers_and_Agile_Teams_book_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035946800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on search icon",
+            "match": {
+              "location": "Shopping.click_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7541584800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on paperback option and click on All Buying option button for agile book",
+            "match": {
+              "location": "Shopping.click_on_paperback_option_and_click_on_All_Buying_option_button_for_agile_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1570585400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on add to cart button for agile",
+            "match": {
+              "location": "Shopping.click_on_add_to_cart_button_for_agile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 820838100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user searched for Selenium WebDriver 3 Practical Guide: End-to-end automation testing for web and mobile browsers with Selenium WebDriver, 2nd Edition book name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 37
+                },
+                {
+                  "val": "2",
+                  "offset": 139
+                }
+              ],
+              "location": "Shopping.user_searched_for_Selenium_WebDriver_Practical_Guide_End_to_end_automation_testing_for_web_and_mobile_browsers_with_Selenium_WebDriver_nd_Edition_book_name(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2794363100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search icon",
+            "match": {
+              "location": "Shopping.click_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16729244100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on paperback option and click on All Buying option button for selenium webdriver book",
+            "match": {
+              "location": "Shopping.click_on_paperback_option_and_click_on_All_Buying_option_button_for_selenium_webdriver_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1360115400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on add to cart button for selenium webdriver",
+            "match": {
+              "location": "Shopping.click_on_add_to_cart_button_for_selenium_webdriver()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1691391600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on cart icon",
+            "match": {
+              "location": "Shopping.click_on_cart_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661182200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on Delete option for Agile Testing: A Practical Guide for Testers and Agile Teams book",
+            "match": {
+              "location": "Shopping.click_on_Delete_option_for_Agile_Testing_A_Practical_Guide_for_Testers_and_Agile_Teams_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6377079600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Save For Later option for Experiences of Test Automation: Case Studies of Software Test Automation book",
+            "match": {
+              "location": "Shopping.click_on_Save_For_Later_option_for_Experiences_of_Test_Automation_Case_Studies_of_Software_Test_Automation_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5737046800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "increse the quantity to three for Selenium WebDriver 3 Practical Guide: End-to-end automation testing for web and mobile browsers with Selenium WebDriver, 2nd Edition book",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 53
+                },
+                {
+                  "val": "2",
+                  "offset": 155
+                }
+              ],
+              "location": "Shopping.increse_the_quantity_to_three_for_Selenium_WebDriver_Practical_Guide_End_to_end_automation_testing_for_web_and_mobile_browsers_with_Selenium_WebDriver_nd_Edition_book(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8439241600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on gift checkox for Selenium WebDriver 3 Practical Guide: End-to-end automation testing for web and mobile browsers with Selenium WebDriver, 2nd Edition book",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 45
+                },
+                {
+                  "val": "2",
+                  "offset": 147
+                }
+              ],
+              "location": "Shopping.click_on_gift_checkox_for_Selenium_WebDriver_Practical_Guide_End_to_end_automation_testing_for_web_and_mobile_browsers_with_Selenium_WebDriver_nd_Edition_book(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129547600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should be able to see the appropriate books added with selected quantity",
+            "match": {
+              "location": "Shopping.user_should_be_able_to_see_the_appropriate_books_added_with_selected_quantity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Books_shopping"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping at amazon",
+    "description": "",
+    "id": "shopping-at-amazon",
+    "keyword": "Feature",
+    "uri": "feature/Shopping.feature"
+  }
+]
